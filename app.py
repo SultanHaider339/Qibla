@@ -56,7 +56,7 @@ if vectorstore is None:
     st.stop()
 
 # ===================== LLM =====================
-GROQ_API_KEY = st.secrets.get("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets.get("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")
 if not GROQ_API_KEY:
     st.error("API key missing.")
     st.stop()
